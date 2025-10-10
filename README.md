@@ -52,7 +52,7 @@ Ce site présente mes projets, mes compétences et mon parcours vers l’industr
 
 - 📧 **Email :** [zachary.r.lucas@gmail.com](mailto:zachary.r.lucas@gmail.com)  
 - 🔗 **LinkedIn :** [Zachary Lucas](https://www.linkedin.com/in/zachary-lucas-127586156/)  
-- 🌍 **Portfolio :** [https://zacharylucas.github.io](https://zacharylucas.github.io)
+- 🌍 **Portfolio :** [https://zacharylucas.github.io](https://zacharylucas3.github.io/zacharylucas.github.io/)
 
 ---
 
