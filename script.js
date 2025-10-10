@@ -1,1 +1,0 @@
-document.addEventListener('DOMContentLoaded',()=>{const t=document.getElementById('langToggle');let f=true;t.addEventListener('click',()=>{f=!f;document.querySelectorAll('.fr').forEach(e=>e.hidden=!f);document.querySelectorAll('.en').forEach(e=>e.hidden=f)})});
