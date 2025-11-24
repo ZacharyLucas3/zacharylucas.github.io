@@ -24,7 +24,7 @@ Ce site présente mes projets, mes compétences et mon parcours vers l’industr
 
 | Catégorie | Détails |
 |------------|----------|
-| **Langages** | Java · JavaScript · HTML · CSS |
+| **Langages** | Java · JavaScript · HTML · CSS · C++ |
 | **Moteurs de jeu** | Unreal Engine (Blueprints, gameplay) |
 | **Outils** | VS Code · GitHub · Trello · Canva |
 | **Méthodes** | Agile · Prototypage rapide · Version control |
