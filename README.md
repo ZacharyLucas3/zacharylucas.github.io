@@ -33,8 +33,9 @@ Ce site présente mes projets, mes compétences et mon parcours vers l’industr
 
 ## 🧱 Autres projets
 
-- **Endless Runner** — Prototype de jeu type *Temple Run* (Unreal Engine).  
-- **Top-Down Shooter** — Shooter en vue du dessus avec IA ennemie et scoring (Unreal Engine).
+- **Survival Game**(En cours de developement) — Mecanique de survie, inventaire, weapons (Unreal Engine / C++ / Blueprint). 
+- **Endless Runner** — Prototype de jeu type *Temple Run* (Unreal Engine / Blueprint).  
+- **Top-Down Shooter** — Shooter en vue du dessus avec IA ennemie et scoring (Unreal Engine / Blueprint).
 
 ---
 
