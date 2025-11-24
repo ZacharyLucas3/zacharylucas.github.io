@@ -1,22 +1,95 @@
-
-<!DOCTYPE html><html><head><meta charset='UTF-8'>
-<title>Zachary Lucas — Game Developer Junior</title>
-<link rel='stylesheet' href='styles.css'></head>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zachary Lucas — Game Developer Junior</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<header class='header'>
-<div class='container header-content'>
-<img src='assets/photo.png' class='photo'>
-<div><h1>Zachary <span class='accent'>Lucas</span></h1>
-<p class='subtitle'>Développeur de jeux vidéo junior</p>
-</div></div></header>
-<main>
-<section class='section'>
-<h2>PurpleBoy: A 2D Adventure Game</h2>
-<p>Projet complet en Java, style aventure 2D.</p>
-</section>
-<section class='section alt'>
-<h2>Projet en cours : Survival Game (C++)</h2>
-<p>Développement d’un survival game en C++ (mécaniques de base, inventaire, IA simple).</p>
-</section>
-</main>
-</body></html>
+  <header class="header">
+    <div class="container header-content">
+      <div class="profile">
+        <img src="assets/photo-placeholder.png" alt="Photo de Zachary" class="photo">
+        <div>
+          <h1>Zachary <span class="accent">Lucas</span></h1>
+          <p class="subtitle">Développeur de jeux vidéo junior</p>
+          <div class="cta">
+            <a href="#purpleboy" class="btn">Découvrir PurpleBoy</a>
+            <a href="#contact" class="btn ghost">Me contacter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="purpleboy" class="section">
+      <div class="container">
+        <h2>PurpleBoy: A 2D Adventure Game</h2>
+        <div class="video-wrapper">
+          <iframe width="100%" height="450" src="https://www.youtube.com/embed/aEXIGvZyJzU" title="PurpleBoy Trailer" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <p>Jeu d’aventure 2D développé en Java, inspiré des classiques comme <em>Zelda</em>. J’ai conçu la boucle de gameplay, les collisions, les interactions et l’interface. PurpleBoy est un projet personnel qui représente ma passion et ma détermination à créer des expériences immersives.</p>
+        <a href="https://zacharylucas.itch.io/purpleboy" target="_blank" class="btn">Télécharger sur Itch.io</a>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Compétences</h2>
+        <div class="grid skills">
+          <div><h4>Langages</h4><p>Java · JavaScript · HTML · CSS</p></div>
+          <div><h4>Moteurs</h4><p>Unreal Engine (Blueprints, gameplay)</p></div>
+          <div><h4>Outils</h4><p>VS Code · GitHub · Trello · Canva</p></div>
+          <div><h4>Méthodes</h4><p>Agile · Prototypage rapide · Version control</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Autres projets</h2>
+        <div class="grid projects">
+          <div class="card">
+            <h4>Endless Runner</h4>
+            <p>Prototype inspiré de Temple Run — gestion du déplacement, obstacles et scoring (Unreal Engine).</p>
+          </div>
+          <div class="grid projects">
+          <div class="card">
+            <h4>Survival Game</h4>
+            <p>Jeu de survie (en cours de developement) — Inventaire, lootable, Weapons, mecanique de survie (Unreal Engine et C++).</p>
+          </div>
+          <div class="card">
+            <h4>Top-Down Shooter</h4>
+            <p>Prototype en vue du dessus — tir, IA ennemie, interface de score (Unreal Engine).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <h2>À propos</h2>
+        <p>🎮 Depuis toujours, je suis passionné par les jeux vidéo — pas seulement pour y jouer, mais pour comprendre comment ils prennent vie. Mon parcours initial ne m’a pas directement conduit vers ce milieu, mais cette passion ne m’a jamais quitté.</p>
+        <p>Aujourd’hui, je suis déterminé à intégrer l’industrie du jeu vidéo, quel que soit le niveau ou le rôle : développement, design, test ou production. Chaque ligne de code que j’écris, chaque prototype que je conçois, est un pas de plus vers mon rêve : créer des mondes qui inspirent et font rêver.</p>
+        <p>Mon objectif est simple : apprendre, évoluer, et un jour contribuer pleinement à la création d’un jeu que d’autres aimeront autant que moi j’aime en faire.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul>
+          <li>📧 <a href="mailto:zachary.r.lucas@gmail.com">zachary.r.lucas@gmail.com</a></li>
+          <li>🔗 <a href="https://www.linkedin.com/in/zachary-lucas-127586156/" target="_blank">LinkedIn / Zachary Lucas</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Zachary Lucas — Game Developer Junior</p>
+  </footer>
+</body>
+</html>
