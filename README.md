@@ -9,7 +9,7 @@
 
 > Bienvenue sur le dépôt du site portfolio personnel de **Zachary Lucas**, Développeur de jeux vidéo junior.
 
-🌐 **Aperçu en ligne :** [zacharylucas3.github.io](https://zacharylucas3.github.io)
+🌐 **Aperçu en ligne :*https://zacharylucas3.github.io/zacharylucas.github.io/*
 
 ---
 
