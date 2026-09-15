@@ -119,8 +119,13 @@ body {
 }
 
 /* =========================================================
-   LOGO EN IMAGE
+   LOGO EN IMAGE (TAILLE DOUBLÉE)
 ========================================================= */
+
+/* On augmente la hauteur de la navbar pour accueillir un logo plus grand */
+.navbar {
+    height: 95px; /* Augmenté de 75px à 95px */
+}
 
 .logo-img-link {
     display: flex;
@@ -129,17 +134,15 @@ body {
 }
 
 .logo-img-link:hover {
-    transform: scale(1.08);
+    transform: scale(1.05);
     opacity: 0.9;
 }
 
 .logo-img {
-    height: 42px;         /* Ajuste la hauteur selon tes préférences */
-    width: auto;          /* Conserve le ratio d'aspect */
+    height: 84px;        /* Taille doublée (passé de 42px à 84px) */
+    width: auto;         /* Conserve le ratio d'aspect */
     object-fit: contain;
-    border-radius: 8px;   /* Optionnel : arrondi si ton logo est carré */
 }
-
 .logo span {
     color: white;
 }
@@ -980,6 +983,10 @@ body {
     .menu-toggle {
         display: flex;
     }
+.logo-img {
+        height: 60px; /* Taille légèrement réduite sur mobile */
+    }
+}
 
     .nav-links {
         display: flex;
