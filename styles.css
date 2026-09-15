@@ -1006,4 +1006,49 @@ body {
     .nav-links a {
         font-size: 1.2rem;
     }
+   /* =========================================================
+   THUMBNAIL VIDÉO INTERACTIVE
+========================================================= */
+
+.video-thumbnail-link {
+    display: block;
+    text-decoration: none;
+}
+
+.video-thumbnail {
+    position: relative;
+    overflow: hidden;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+}
+
+.play-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 8, 13, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.play-btn {
+    padding: 10px 20px;
+    background: var(--accent);
+    color: white;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+    transition: 0.3s ease;
+}
+
+.video-thumbnail-link:hover .play-overlay {
+    background: rgba(8, 8, 13, 0.2);
+}
+
+.video-thumbnail-link:hover .play-btn {
+    background: var(--accent-light);
+    transform: scale(1.08);
+   }
 }
