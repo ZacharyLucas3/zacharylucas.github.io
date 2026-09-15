@@ -51,13 +51,16 @@ Ce projet est le portfolio dynamique et vitrine de mes compétences en développ
 
 ---
 
-## 📁 Structure du projet
+📬 Me contacter
 
-```text
-zacharylucas.github.io/
-├── images/             # Captures d'écran et assets visuels (ex: crashalien.png)
-├── index.html          # Structure principale du site
-├── styles.css          # Styles global, variables CSS et styles responsive
-├── script.js          # Interactions, animations et menu mobile
-├── photo.png           # Photo de profil
-└── README.md           # Documentation du projet
+Email : zachary.r.lucas@gmail.com
+
+LinkedIn : Zachary Lucas
+
+itch.io : zacharylucas.itch.io
+
+© 2026 Zachary Lucas — Tous droits réservés.
+
+
+
+
