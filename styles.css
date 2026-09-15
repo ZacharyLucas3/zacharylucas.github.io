@@ -94,7 +94,7 @@ body {
 
 
 /* =========================================================
-   NAVBAR (AVEC GRAND LOGO FIXÉ)
+   HEADER & NAVIGATION
 ========================================================= */
 
 .header {
@@ -103,26 +103,23 @@ body {
     left: 0;
     width: 100%;
     z-index: 1000;
-
     background: rgba(8, 8, 13, 0.85);
     backdrop-filter: blur(15px);
-
     border-bottom: 1px solid var(--border);
 }
 
 .navbar {
-    min-height: 90px; /* Adapte la hauteur à la taille du grand logo */
-    padding: 10px 0;
-
+    height: 70px; /* Height compacte et propre */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* Style du Logo */
 .logo-img-link {
     display: flex;
     align-items: center;
-    flex-shrink: 0; /* Empêche le logo de réduire les liens du menu */
+    flex-shrink: 0;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
@@ -132,16 +129,16 @@ body {
 }
 
 .logo-img {
-    height: 70px; /* Taille optimale pour garder un bon équilibre */
+    height: 45px; /* Taille de logo idéale et équilibrée */
     width: auto;
     object-fit: contain;
 }
 
+/* Raccourcis / Liens de Navigation */
 .nav-links {
     display: flex;
     align-items: center;
-    gap: 35px;
-
+    gap: 30px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -151,8 +148,9 @@ body {
     color: var(--text-muted);
     font-size: 0.95rem;
     font-weight: 500;
-    transition: 0.3s ease;
-    white-space: nowrap; /* Empêche les liens de sauter une ligne */
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.3s ease;
 }
 
 .nav-links a:hover,
@@ -160,11 +158,10 @@ body {
     color: var(--accent-light);
 }
 
-/* Compensateur de hauteur pour le haut de la page Hero */
+/* Espacement en haut de page pour ne pas masquer le haut du Hero */
 .hero {
     padding-top: 110px;
 }
-
 
 /* =========================================================
    HERO
