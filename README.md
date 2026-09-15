@@ -1,60 +1,63 @@
-# 🎮 Zachary Lucas — Game Developer Junior
+# 🎮 Zachary Lucas — Portfolio Web
 
-Bienvenue sur mon portfolio !  
-Je suis **Zachary Lucas**, un **développeur de jeux vidéo junior** passionné par la création d’expériences interactives et immersives.  
-Ce site présente mes projets, mes compétences et mon parcours vers l’industrie du jeu vidéo.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-blue.style=for-the-badge)
 
----
+> Bienvenue sur le dépôt du site portfolio personnel de **Zachary Lucas**, Développeur de jeux vidéo junior.
 
-## 🌟 Projet principal : PurpleBoy
-
-### PurpleBoy: A 2D Adventure Game
-> Jeu d’aventure 2D développé en **Java**, inspiré des classiques comme *Zelda*.  
-> J’ai conçu la boucle de gameplay, les collisions, les interactions et l’interface.
-
-🎬 **Teaser vidéo :**  
-[Voir sur YouTube](https://www.youtube.com/watch?v=aEXIGvZyJzU)
-
-📦 **Téléchargement :**  
-[Disponible sur Itch.io](https://zacharylucas.itch.io/purpleboy)
+🌐 **Aperçu en ligne :** [zacharylucas3.github.io](https://zacharylucas3.github.io)
 
 ---
 
-## ⚙️ Compétences
+## 📌 À propos
 
-| Catégorie | Détails |
-|------------|----------|
-| **Langages** | Java · JavaScript · HTML · CSS · C++ |
-| **Moteurs de jeu** | Unreal Engine (Blueprints, gameplay) |
-| **Outils** | VS Code · GitHub · Trello · Canva |
-| **Méthodes** | Agile · Prototypage rapide · Version control |
+Ce projet est le portfolio dynamique et vitrine de mes compétences en développement informatique et création de jeux vidéo. Il présente mes projets phares développés sous **Unity**, **Unreal Engine** et en **Java**, mes compétences techniques ainsi que mes moyens de contact.
 
 ---
 
-## 🧱 Autres projets
+## 👾 Projets en vedette
 
-- **Survival Game**(En cours de developement) — Mecanique de survie, inventaire, weapons (Unreal Engine / C++ / Blueprint). 
-- **Endless Runner** — Prototype de jeu type *Temple Run* (Unreal Engine / Blueprint).  
-- **Top-Down Shooter** — Shooter en vue du dessus avec IA ennemie et scoring (Unreal Engine / Blueprint).
+### 🛸 CrashAlien *(Nouveau)*
+* **Plateforme :** Mobile
+* **Moteur / Langage :** Unity / C#
+* **Genre :** Hypercasual
+* **Description :** Incarnez un alien déchaîné dont l'objectif est de semer le chaos et de détruire un maximum d'objets dans son environnement. Le jeu repose sur une boucle de gameplay rapide et accessible, avec un système de score, des niveaux, des améliorations et des skins à débloquer.
 
----
-
-## 💬 À propos de moi
-
-> Depuis toujours, je suis passionné par les jeux vidéo — pas seulement pour y jouer, mais pour comprendre **comment ils prennent vie**.  
-> Mon parcours initial ne m’a pas directement conduit vers ce milieu, mais cette passion ne m’a jamais quitté.  
->  
-> Aujourd’hui, je suis **déterminé à intégrer l’industrie du jeu vidéo**, quel que soit le niveau ou le rôle : développement, design, test ou production.  
-> Chaque ligne de code que j’écris, chaque prototype que je conçois, est un pas de plus vers mon rêve : **créer des mondes qui inspirent et font rêver**.
+### 🗡️ PurpleBoy
+* **Moteur / Langage :** Java (2D)
+* **Description :** Jeu d'aventure 2D inspiré des classiques du genre (Zelda), intégrant de la gestion de collisions, boucle de gameplay interactive et système d'interface.
 
 ---
 
-## 📫 Contact
+## ✨ Fonctionnalités clés du portfolio
 
-- 📧 **Email :** [zachary.r.lucas@gmail.com](mailto:zachary.r.lucas@gmail.com)  
-- 🔗 **LinkedIn :** [Zachary Lucas](https://www.linkedin.com/in/zachary-lucas-127586156/)  
-- 🌍 **Portfolio :** [https://zacharylucas.github.io](https://zacharylucas3.github.io/zacharylucas.github.io/)
+- **🎨 Design Dark & Responsive :** Interface moderne, épurée et adaptée à tous les écrans (mobile, tablette et ordinateur).
+- **📱 Menu Mobile Interactif :** Menu hamburger fluide généré dynamiquement en JavaScript.
+- **✨ Animations au Scroll :** Transitions douces et apparition progressive (reveal) des éléments grâce à l'API `IntersectionObserver`.
+- **🎯 Navigation active :** Mise en valeur dynamique de la section courante dans la barre de navigation lors du défilement.
+- **🎬 Intégration multimédia :** Démonstrations vidéo (YouTube) et images de présentation des projets.
 
 ---
 
-> _“Every line of code I write brings me one step closer to creating the worlds I’ve always dreamed of.”_ ✨
+## 🛠️ Stack Technique
+
+- **Markup & Style :** HTML5, CSS3 (Flexbox, CSS Grid, Variables CSS).
+- **Scripting :** JavaScript ES6+ (DOM Manipulation, Intersection Observer API).
+- **Hébergement :** GitHub Pages.
+
+---
+
+## 📁 Structure du projet
+
+```text
+zacharylucas.github.io/
+├── images/             # Captures d'écran et assets visuels (ex: crashalien.png)
+├── index.html          # Structure principale du site
+├── styles.css          # Styles global, variables CSS et styles responsive
+├── script.js          # Interactions, animations et menu mobile
+├── photo.png           # Photo de profil
+└── README.md           # Documentation du projet
