@@ -257,8 +257,8 @@ body {
 }
 
 .photo {
-    width: 320px;
-    height: 320px;
+    width: 1536px;
+    height: 1024px;
 
     object-fit: cover;
 
